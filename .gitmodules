@@ -1,0 +1,3 @@
+[submodule "vue_djakets"]
+	path = vue_djakets
+	url = https://github.com/yantheo/EcommerceWithDjangoVueStripe
