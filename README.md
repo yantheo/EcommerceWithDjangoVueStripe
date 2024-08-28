@@ -64,5 +64,17 @@ Usage:
 - Access the admin panel at /admin/ to manage products and orders.
 - The API endpoints for managing orders and integrating Stripe are available under /api/
 
+3. Set Up the Frontend (Vue.js)
+- Navigate to the vue_djakets directory:
+- cd ../vue_djakets
 
+Install the required dependencies:
+npm install
+
+Set up environment variables for API base URL and Stripe publishable key:
+echo "VUE_APP_API_BASE_URL=http://localhost:8000/api/" > .env
+echo "VUE_APP_STRIPE_PUBLISHABLE_KEY=your_publishable_key" >> .env
+
+Run the development server:
+npm run serve
 
