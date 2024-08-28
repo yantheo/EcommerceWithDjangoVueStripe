@@ -37,3 +37,32 @@ EcommerceWithDjangoVueStripe is a full-stack e-commerce platform combining a Dja
 ```bash
 git clone https://github.com/yantheo/EcommerceWithDjangoVueStripe.git
 cd EcommerceWithDjangoVueStripe
+
+2. Set Up the Backend (Django)
+- Navigate to the django_djakets directory:
+- cd django_djakets
+
+Create and activate a virtual environment:
+python -m venv venv
+source venv/bin/activate
+
+Install the required dependencies:
+pip install -r requirements.txt
+
+Set up environment variables for Stripe API keys:
+export STRIPE_SECRET_KEY='your_secret_key'
+export STRIPE_PUBLISHABLE_KEY='your_publishable_key'
+
+Apply migrations:
+python manage.py migrate
+
+Run the development server:
+python manage.py runserver
+
+Usage:
+
+- Access the admin panel at /admin/ to manage products and orders.
+- The API endpoints for managing orders and integrating Stripe are available under /api/
+
+
+
