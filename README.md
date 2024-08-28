@@ -38,7 +38,7 @@ EcommerceWithDjangoVueStripe is a full-stack e-commerce platform combining a Dja
 git clone https://github.com/yantheo/EcommerceWithDjangoVueStripe.git
 cd EcommerceWithDjangoVueStripe
 
-2. Set Up the Backend (Django)
+#### 2. Set Up the Backend (Django)
 - Navigate to the django_djakets directory:
 - cd django_djakets
 
@@ -64,7 +64,7 @@ Usage:
 - Access the admin panel at /admin/ to manage products and orders.
 - The API endpoints for managing orders and integrating Stripe are available under /api/
 
-3. Set Up the Frontend (Vue.js)
+#### 3. Set Up the Frontend (Vue.js)
 - Navigate to the vue_djakets directory:
 - cd ../vue_djakets
 
